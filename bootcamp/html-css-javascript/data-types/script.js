@@ -1,0 +1,1 @@
+console.log(typeof(null) + typeof(undefined) + typeof(`AbdurRahman G`) + typeof(`1998`) + typeof(true) + typeof(15101998) + `symbol`);
