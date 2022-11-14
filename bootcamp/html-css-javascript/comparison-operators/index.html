@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparison operators</title>
+
+    <style>
+        table,
+        caption,
+        thead,
+        tbody,
+        th,
+        td {
+            padding: 5px;
+            border: 1px solid #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Comparison operators</h1>
+    <h2>Definition</h2>
+    <p>A comparison operator compares its operands and returns a logical value based on whether the comparison is true.
+        The operands can be numerical, string, logical, or object values.</p>
+    <br><br>
+
+    <code>
+        const var1 = 3;
+        <br>
+        const var2 = 4;
+    </code>
+    <br><br>
+    <table>
+        <caption>Comparison operators</caption>
+        <thead>
+            <tr>
+                <th>Operator</th>
+                <th>Description</th>
+                <th>Examples returning true</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Equal (==)</td>
+                <td>Returns true if the operands are equal.</td>
+                <td>3 == var1 <br> "3" == var1 <br> 3 == '3'</td>
+            </tr>
+            <tr>
+                <td>Not equal (!=)</td>
+                <td>Returns true if the operands are not equal.</td>
+                <td>var1 != 4 <br> var2 != "3"</td>
+            </tr>
+            <tr>
+                <td>Strict equal (===)</td>
+                <td>Returns true if the operands are equal and of the same type. See also Object.is and sameness in JS.
+                </td>
+                <td>3 === var1</td>
+            </tr>
+            <tr>
+                <td>Strict not equal (!==)</td>
+                <td>Returns true if the operands are of the same type but not equal, or are of different type.</td>
+                <td>var1 !== "3" <br> 3 !== '3'</td>
+            </tr>
+            <tr>
+                <td>Greater than (>)</td>
+                <td>Returns true if the left operand is greater than the right operand.</td>
+                <td>var2 > var1 <br> "12" > 2</td>
+            </tr>
+            <tr>
+                <td>Greater than or equal (>=)</td>
+                <td>Returns true if the left operand is greater than or equal to the right operand.</td>
+                <td>var2 >= var1 <br> var1 >= 3</td>
+            </tr>
+            <tr>
+                <td>Less than (<)</td>
+                <td>Returns true if the left operand is less than the right operand.</td>
+                <td>var1 < var2 <br> "2" < 12</td>
+            </tr>
+            <tr>
+                <td>Less than or equal (<=)</td>
+                <td>Returns true if the left operand is less than or equal to the right operand.</td>
+                <td>var1 <= var2 <br> var2 <= 5</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
