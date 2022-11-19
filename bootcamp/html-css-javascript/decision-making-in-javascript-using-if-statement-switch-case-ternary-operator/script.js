@@ -92,18 +92,22 @@
 
 
 // Switch case example 2
-const grade = prompt("Enter your grade in character (A, B, C, D etc.)").toLowerCase();
+// const grade = prompt("Enter your grade in character (A, B, C, D etc.)").toLowerCase();
 
-switch (grade) {
-    case "a":
-        console.log("Congratulations! You did well and You passed the Test.");
-        break;
-    case "b":
-        console.log("You did good, Needs more improvement.");
-        break;
-    case "c":
-        console.log("You did average, But needs more and more improvement.");
-        break;
-    default:
-        console.log("You are failed, you need to be clear with your goal.");
-}
+// switch (grade) {
+//     case "a":
+//         console.log("Congratulations! You did well and You passed the Test.");
+//         break;
+//     case "b":
+//         console.log("You did good, Needs more improvement.");
+//         break;
+//     case "c":
+//         console.log("You did average, But needs more and more improvement.");
+//         break;
+//     default:
+//         console.log("You are failed, you need to be clear with your goal.");
+// }
+
+// Ternary Operator
+const gender = prompt("Choose gender like (m(male) or f(female))");
+document.write(`${gender.toLowerCase() === "f" ? "She" : "He" } is a Student.`)
